@@ -3,9 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[10] = { 2, 5, 1, 3, 4, 9, 7, 8, 10, 6}
+		inteiro vetor[10]
 		inteiro i, soma = 0, par, imp
-		real media = 0
+		real media
+
+		para (i = 0; i < 10; i++)
+        	{
+            escreva("Digite um número: ")
+            leia(vetor[i])
+        	}
 
 		escreva("Elementos ímpares no indice: \n")
 		para (i = 0; i < 10; i++){
@@ -47,9 +53,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 733; 
+ * @POSICAO-CURSOR = 97; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {media, 8, 7, 5};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
